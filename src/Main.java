@@ -40,8 +40,8 @@ public class Main extends JFrame {
 	public static void drawPicture(String shuffledKanji) {
 		BufferedImage img = new BufferedImage(Main.WIDTH, Main.HEIGHT, BufferedImage.TYPE_INT_RGB);
 		Graphics2D g2 = (Graphics2D) img.getGraphics();
-		g2.setColor(new Color(0, 0, 0));
-		g2.fillRect(0, 0, WIDTH, 1080);
+		g2.setColor(Color.BLACK);
+		g2.fillRect(0, 0, Main.WIDTH, Main.HEIGHT);
 		g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
 		
 		final int BASE_FONT_SIZE = 20;
