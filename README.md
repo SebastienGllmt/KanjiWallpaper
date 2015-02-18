@@ -2,7 +2,7 @@
 
 Simply run the program and the output will be made in the same folder the program is located
 
-Two aspects will vary each time the pprogram is run
+Two aspects will vary each time the program is run
 - The kanji in a given location
 - The brightness of a given location
 
